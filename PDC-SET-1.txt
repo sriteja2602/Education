@@ -54,4 +54,19 @@ A. omp_get_wtime() , MPI_Wtime()
 A. Coarse grain
 
 16. In database terminology, ACID stands as ------------------------------
-A. Atomicity, Consistency, Isolation, Durability
+A. Atomicity, Consistency, Isolation, Durability.
+
+17. The form of dependency in which two instructions compete for a single processor resource is referred as -------------------------and the rate at which the data can be sent from memory to the processor is known as-------------.
+A. Resource Dependency,Memory bandwidth.
+
+18. The arbitrary behaviour of distributed system components is known as -----------
+A. Arbitrary failures (Byzantine failures).
+
+19. Find the output:
+int a, b=23,k=10; a=b & k;
+omp_set_num_threads(10);
+printf(“%d”, a);
+A. 2
+
+20. The overall speed of computation is determined by not just by the speed of processor but also by the ability of the memory system to feed the data to it.
+A. True
